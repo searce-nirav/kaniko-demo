@@ -4,7 +4,7 @@ steps:
     args:
     - --cache=true
     - --cache-ttl=6h
-    - --destination=us-central1-docker.pkg.dev/eighth-vehicle-375706/kaniko-demo:$COMMIT_SHA
+    - --destination=us-central1-docker.pkg.dev/eighth-vehicle-375706/kaniko-demo/executor:$COMMIT_SHA
 
 options:
   logging: CLOUD_LOGGING_ONLY
